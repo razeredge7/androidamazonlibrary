@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/sortby"
+        android:title="Sort By..."
+        android:icon="@drawable/ic_more"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/author"
+                android:title="Author"
+                app:showAsAction="never" >
+
+                <menu>
+                    <item android:id="@+id/authorasc"
+                        android:title="Ascending"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/authordesc"
+                        android:title="Descending"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/title"
+            android:title="Title"
+            app:showAsAction="never" >
+
+            <menu>
+                <item android:id="@+id/titleasc"
+                    android:title="Ascending"
+                    app:showAsAction="never" />
+
+                <item android:id="@+id/titledesc"
+                    android:title="Descending"
+                    app:showAsAction="never" />
+            </menu>
+
+            </item>
+
+            <item android:id="@+id/publisher"
+                android:title="Publisher"
+                app:showAsAction="never" >
+            <menu>
+                <item android:id="@+id/publisherasc"
+                    android:title="Ascending"
+                    app:showAsAction="never" />
+
+                <item android:id="@+id/publisherdesc"
+                    android:title="Descending"
+                    app:showAsAction="never" />
+
+            </menu>
+            </item>
+
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/aboutme"
+        android:title="About Me"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/myfavorites"
+        android:title="My Favorites"
+        app:showAsAction="never"/>
+</menu>
